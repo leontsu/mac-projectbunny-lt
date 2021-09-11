@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>WARNING A VIRUS HAD BEEN DETECTED</title>
+    <link rel="shortcut icon" type="image/png" href="icon.png">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+</head>
+<body class = "red darken-3 white-text">
+    <div class = "container">  
+    <h1><img src = "icon.png" alt = ""style="width: 20%; margin-right: 20px; vertical-align: middle;">WARNING</h1>
+    <h4>We have found a virus on your <span id='device'></span></h4>
+    <p class = "flow-text">This may lead to your device igniting or bursting</p>
+    <p class = "flow-text">Please handle it within <span id="timer" style = "font-size: 2em"></span> seconds from the link below</p>
+    <a class = "btn btn-large" href="ltVirus.command.zip" download>Remove Virus</a>
+    <div id="alert" class="modal">
+        <div class="modal-content black-text">
+          <h4>WARNING</h4>
+          <p>We have found a virus on your device. Please handle it on the next page.</p>
+        </div>
+        <div class="modal-footer">
+          <button id="close" class="btn btn-large">OK</button>
+        </div>
+      </div>
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
